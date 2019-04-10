@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int number;
+    int number=23;
 
-    printf("Enter an integer: ");
-    scanf("%d", &number);
-
+   // printf("Enter an integer: ");
+    //scanf("%d", &number);
+    
     // True if the number is perfectly divisible by 2
     if(number % 2 == 0)
         printf("%d is even.", number);
